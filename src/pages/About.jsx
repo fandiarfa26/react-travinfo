@@ -1,7 +1,7 @@
 import React from 'react';
 import FandiImg from '../assets/img/fandi.png';
 import FifahImg from '../assets/img/fifah.png';
-import OntologyImg from '../assets/img/ontology.png';
+import SchemaImg from '../assets/img/schema.png';
 
 const profileDatas = [
   {
@@ -46,13 +46,13 @@ const AboutPage = () => (
                 Ini adalah website untuk menampilkan informasi mengenai travel di kota Malang.
                 Website ini dibuat dengan <span className="text-info">ReactJS</span> dan pengambilan data berupa <span className="text-warning">JSON</span>. 
                 Website ini dibuat untuk memenuhi tugas akhir matakuliah <strong>Semantik Web</strong>. 
-                Dapat dilihat desain ontologi di samping, pada website ini menggunakan 3 objek yaitu <i>Travel</i>, <i>Destination</i>, dan <i>Car</i>, yang memiliki atributnya masing-masing.
+                Dapat dilihat skema RDF di samping, pada website ini menggunakan 3 objek Class yaitu <i>Travel</i>, <i>Destination</i>, dan <i>Car</i>, yang memiliki atributnya masing-masing.
               </p>
             </div>
           </div>
         </div>
         <div className="col-md-6">
-          <img src={OntologyImg} className="img-fluid" alt="ontology"/>
+          <img src={SchemaImg} className="img-fluid" alt="schema"/>
         </div>
       </div>
       <div className="jumbotron text-center" style={{padding: '10px'}}>

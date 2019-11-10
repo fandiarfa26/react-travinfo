@@ -32,7 +32,7 @@ const Header = () => (
 
 const Footer = () => (
   <div className="footer">
-    <p className="text-center">&copy;2019 InfoTravel Malang</p>
+    <p className="text-center">&copy;2019 Travinfo</p>
   </div>
 );
 
